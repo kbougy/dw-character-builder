@@ -1,0 +1,161 @@
+[
+  {
+    "backgrounds": [
+      {
+        "name": "Well Versed",
+        "description": "When you **enter an important location** (your call), you can ask the GM for one fact from the history of that location."
+      },
+      {
+        "name": "Traveller",
+        "description": "When you **first enter a civilized settlement,** someone who respects the custom of hospitality to minstrels will take you in as their guest."
+      }
+    ],
+    "drives": [
+      {
+        "description": "Uncover forgotten knowledge or discover something new.",
+        "name": "Pursuit Of Knowledge"
+      },
+      {
+        "description": "Avoid a conflict or defuse a tense situation.",
+        "name": "Keeper Of The Peace"
+      },
+      {
+        "description": "Perform for your own vanity or glory.",
+        "name": "Display My Skills"
+      }
+    ],
+    "bonds": [
+      "This is not my first adventure with <>.",
+      "I sang stores of <> long before I ever met them.",
+      "<> is often the butt of my jokes.",
+      "<> plays an important role in my performances",
+      "I am writing a ballard about the adventures of <>",
+      "<> trusted me with a secret.",
+      "<> does not trust me, and for a good reason"
+    ],
+    "startingMoves": [
+      {
+        "name": "Bardic Lore",
+        "description": "When you **Spout Lore**, if you tell the GM about a tale, song, or legend featuring the subject at hand, roll+CHA instead of +INT. On a 10+, you may also ask the GM any one question about the subject, and the GM must answer truthfully."
+      },
+      {
+        "name": "Enchanting Entertainer",
+        "description": "When you perform in front of an audience, if you describe to the GM a story you tell, a song you sing, or your performance, roll+CHA.\n*On a 10+: Choose 2\n*On a 7-9+: Choose 1, and the crowd starts to get out of control.\n*You make some money - gain 4d6 coins.\n*A NPC member of the audience becomes enraptured with you, the GM will tell you who.\n*You gain useful information or hear rumors of an opportunity.\n*Some NPC in the audience brings you a special gift for your performance."
+      },
+      {
+        "name": "Arcane Inspiration",
+        "description": "When you **deliver magical speech or song to your allies in the midst of combat**, describe it and roll+CHA.\n*On a 10+: choose 1\n*On a 7-9+: As 10+, but one effect also reverberates your enemies - the GM chooses.\n*You and your allies gain +1 forward.\n*You and your allies gain +1 armor forward.\nYou and your allies shake off the effects of a harmful enchantment."
+      },
+      {
+        "name": "Refreshing Song",
+        "description": "When you **Make camp and sing a soothing song,** describe the song and everyone in camp heals 1d6 damage."
+      },
+      {
+        "name": "A Port In The Storm",
+        "description": "When you **return to a civilized settlement you've visited before,** tell the GM when you were last here. They'll tell you how it's changed since then."
+      }
+    ],
+    "load": 9,
+    "coins": 16,
+    "startingGear": {
+      "Starting": [
+        {
+          "name": "Adventuring Gear",
+          "weight": 1,
+          "uses": 5
+        },
+        {
+          "name": "Pipeleaf",
+          "weight": 0,
+          "uses": 5
+        },
+        {
+          "name": "Dungeon Rations",
+          "weight": 1,
+          "uses": 5
+        }
+      ],
+      "Clothing": [
+          {
+            "name": "Leather Armor",
+            "armor": "1",
+            "weight": 1
+          },
+          {
+            "name": "Ostentatious clothes",
+            "weight": 0
+          }
+      ],
+      "Armament": [
+        {
+          "name": "Dueling Rapier",
+          "weight": 2,
+          "tags": ["Close", "Precise"]
+        },
+        [
+          {
+            "name": "Worn Bow",
+            "weight": 2,
+            "tags": ["Near"]
+          },
+          {
+            "name": "Bundle Of Arrows",
+            "weight": 1,
+            "ammo": 3
+          },
+          {
+            "name": "Short Sword",
+            "weight": 1,
+            "tags": ["Close"]
+          }
+        ]
+      ],
+      "Instrument": [
+        {
+          "name": "Mandolin",
+          "weight": 0
+        },
+        {
+          "name": "Lute",
+          "weight": 0
+        },
+        {
+          "name": "Pipes",
+          "weight": 0
+        },
+        {
+          "name": "Horn",
+          "weight": 0
+        },
+        {
+          "name": "Fiddle",
+          "weight": 0
+        },
+        {
+          "name": "Songbook",
+          "weight": 0
+        },
+        {
+          "name": "Ukulele",
+          "weight": 0
+        },
+        {
+          "name": "*",
+          "weight": 0
+        }
+      ]
+    },
+    "Advanced Moves": {
+      "2": [
+        {
+          "name": "It Goes To Eleven",
+          "description": 
+        }
+      ]
+    }
+
+    "hp": 19,
+    "damage": 6,
+    "className": "Bard"
+  }
+]
